@@ -184,18 +184,22 @@ document.addEventListener('DOMContentLoaded', () => {
         if (window.innerWidth < 768) {
             // Mobile optimized images (smaller file size)
             if (heroElement) {
+
                 heroElement.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Stu2/images/BoatBackGround1.jpeg')";
             }
             if (aboutImage) {
                 aboutImage.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/Stu2/images/Marina.jpeg')";
+
             }
         } else {
             // Desktop high quality images
             if (heroElement) {
+
                 heroElement.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Stu2/images/BoatBackGround1.jpeg')";
             }
             if (aboutImage) {
                 aboutImage.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/Stu2/images/Marina.jpeg')";
+
             }
         }
     }

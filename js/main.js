@@ -184,18 +184,18 @@ document.addEventListener('DOMContentLoaded', () => {
         if (window.innerWidth < 768) {
             // Mobile optimized images (smaller file size)
             if (heroElement) {
-                heroElement.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/stu2/images/Marina.jpeg')";
+                heroElement.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/Johnaleahy/Stu2/refs/heads/main/images/Marina.jpeg')";
             }
             if (aboutImage) {
-                aboutImage.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/stu2/images/BoatBackGround1.jpeg')";
+                aboutImage.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), URL('https://raw.githubusercontent.com/Johnaleahy/Stu2/refs/heads/main/images/BoatBackGround1.jpeg')";
             }
         } else {
             // Desktop high quality images
             if (heroElement) {
-                heroElement.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/stu2/images/Marina.jpeg')";
+                heroElement.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/Johnaleahy/Stu2/refs/heads/main/images/Marina.jpeg')";
             }
             if (aboutImage) {
-                aboutImage.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/stu2/images/BoatBackGround11.jpeg')";
+                aboutImage.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://raw.githubusercontent.com/Johnaleahy/Stu2/refs/heads/main/images/BoatBackGround1.jpeg')";
             }
         }
     }

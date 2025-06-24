@@ -208,7 +208,7 @@ img {
 /* ---------- Hero Section ---------- */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Marina.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://github.com/Johnaleahy/Stu2/images/Marina.jpeg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -285,7 +285,7 @@ img {
     background-color: var(--secondary-color);
     border-radius: 8px;
     box-shadow: var(--shadow);
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/BoatBackGround1.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://github.com/Johnaleahy/Stu2/images/BoatBackGround1.jpeg');
     background-size: cover;
     background-position: center;
 }

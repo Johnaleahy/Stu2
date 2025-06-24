@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 heroElement.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Stu2/images/Marina.jpeg')";
             }
             if (aboutImage) {
-                aboutImage.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/Stu2/images/BoatBackGround1.jpeg')";
+                aboutImage.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/Stu2/images/BoatBackGround.jpeg')";
             }
         } else {
             // Desktop high quality images
@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 heroElement.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Stu2/images/Marina.jpeg')";
             }
             if (aboutImage) {
-                aboutImage.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/Stu2/images/BoatBackGround1.jpeg')";
+                aboutImage.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/Stu2/images/BoatBackGround.jpeg')";
             }
         }
     }

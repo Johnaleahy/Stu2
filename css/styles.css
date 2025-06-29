@@ -311,6 +311,10 @@ img {
     transition: var(--transition);
     text-align: center;
 }
+.cert-card img {
+    display: block;
+    margin: 0 auto;
+}
 
 .cert-card:hover {
     transform: translateY(-5px);

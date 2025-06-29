@@ -132,7 +132,6 @@ img {
 /* ---------- Navbar ---------- */
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 20px 0;
     position: fixed;
@@ -156,8 +155,21 @@ img {
     height: 40px;
 }
 
+.nav-brand {
+    font-weight: 700;
+    color: white;
+}
+
+.navbar.scrolled .nav-brand {
+    color: var(--dark-color);
+}
+
 .navbar.scrolled .logo img {
     filter: none;
+}
+
+.nav-links {
+    margin-left: auto;
 }
 
 .nav-links ul {
@@ -230,6 +242,8 @@ img {
 .hero-logo {
     width: 250px;
     margin: 0 auto 20px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
 }
 
 .hero p {

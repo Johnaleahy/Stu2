@@ -227,6 +227,11 @@ img {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+.hero-logo {
+    width: 250px;
+    margin: 0 auto 20px;
+}
+
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 30px;

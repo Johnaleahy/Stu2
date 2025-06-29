@@ -1,5 +1,5 @@
 /*
- * Marine Survey Website JavaScript
+ * Privateer Marine Survey Website JavaScript
  * Adds interactivity and dynamic elements to the website
  */
 

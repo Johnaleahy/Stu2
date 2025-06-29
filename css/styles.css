@@ -1,5 +1,5 @@
 /* 
-* Marine Survey Website Styles
+* Privateer Marine Survey Website Styles
 * A clean, modern design for a professional marine surveying service
 */
 
@@ -152,15 +152,12 @@ img {
     padding: 15px 30px;
 }
 
-.logo h3 {
-    color: white;
-    margin-bottom: 0;
-    font-size: 1.8rem;
-    letter-spacing: 1px;
+.logo img {
+    height: 40px;
 }
 
-.navbar.scrolled .logo h3 {
-    color: var(--primary-color);
+.navbar.scrolled .logo img {
+    filter: none;
 }
 
 .nav-links ul {
@@ -464,8 +461,8 @@ footer {
     margin-bottom: 40px;
 }
 
-.footer-logo h3 {
-    color: white;
+.footer-logo img {
+    height: 40px;
     margin-bottom: 10px;
 }
 
